@@ -139,6 +139,8 @@ func getDenomList(chain string) []string {
 		dList = []string{"uctk"}
 	case "rizon":
 		dList = []string{"uatolo"}
+	case "onomy":
+		dList = []string{"nom","anom","footoken"}
 	}
 
 	return dList
